@@ -34,7 +34,7 @@ on:
 
 jobs:
   run:
-    runs-on: macos-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     env:
       NODE_OPTIONS: "--max-old-space-size=4096"
